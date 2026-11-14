@@ -157,7 +157,7 @@ pyo3_stub_gen::create_exception!(
     opening_hours_py,
     InvalidCoordinatesError,
     PyException,
-    concat!("Input coordinates are not valid.")
+    "Input coordinates are not valid."
 );
 
 /// Validate that input string is a correct opening hours description.
